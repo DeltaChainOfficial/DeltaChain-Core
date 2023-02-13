@@ -46,8 +46,7 @@ since we are making breaking changes to the protocol and the APIs. See below for
 more details about [versioning](#versioning).
 
 In any case, if you intend to run DeltaChain in production, we're happy to help.
-You can contact us [over email](mailto:hello@interchain.io) or [join the
-chat](https://discord.gg/DeltaChainnetwork).
+You can contact us [over email](contact@deltachain.network)
 
 More on how releases are conducted can be found [here](./RELEASES.md).
 
@@ -130,50 +129,3 @@ Upgrading instructions can be found in [UPGRADING.md](./UPGRADING.md).
   applications in Golang
 - [DeltaChain in Rust](https://github.com/DeltaChainOfficial)
 - [ABCI Tower](https://github.com/DeltaChainOfficial)
-
-### Applications
-
-- [DeltaChain Hub](https://hub.DeltaChain.network/)
-- [Terra](https://www.terra.money/)
-- [Celestia](https://celestia.org/)
-- [Anoma](https://anoma.network/)
-- [Vocdoni](https://docs.vocdoni.io/)
-
-### Research
-
-- [The latest gossip on BFT consensus](https://arxiv.org/abs/1807.04938)
-- [Master's Thesis on DeltaChain](https://atrium.lib.uoguelph.ca/xmlui/handle/10214/9769)
-- [Original Whitepaper: "DeltaChain: Consensus Without Mining"](https://DeltaChain.com/static/docs/DeltaChain.pdf)
-- [DeltaChain Core Blog](https://medium.com/DeltaChain/tagged/DeltaChain-core)
-- [DeltaChain Blog](https://blog.DeltaChain.network/DeltaChain/home)
-
-## Join us!
-
-DeltaChain Core is maintained by [Interchain GmbH](https://interchain.berlin).
-If you'd like to work full-time on DeltaChain Core,
-[we're hiring](https://interchain-gmbh.breezy.hr/)!
-
-Funding for DeltaChain Core development comes primarily from the
-[Interchain Foundation](https://interchain.io), a Swiss non-profit. The
-DeltaChain trademark is owned by [DeltaChain Inc.](https://DeltaChain.com), the
-for-profit entity that also maintains [DeltaChain.com](https://DeltaChain.com).
-
-[bft]: https://en.wikipedia.org/wiki/Byzantine_fault_tolerance
-[smr]: https://en.wikipedia.org/wiki/State_machine_replication
-[Blockchain]: https://en.wikipedia.org/wiki/Blockchain
-[version-badge]: https://img.shields.io/github/tag/DeltaChain/DeltaChain.svg
-[version-url]: https://github.com/DeltaChain/DeltaChain/releases/latest
-[api-badge]: https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-[api-url]: https://pkg.go.dev/github.com/DeltaChain/DeltaChain
-[go-badge]: https://img.shields.io/badge/go-1.18-blue.svg
-[go-url]: https://github.com/moovweb/gvm
-[discord-badge]: https://img.shields.io/discord/669268347736686612.svg
-[discord-url]: https://discord.gg/DeltaChainnetwork
-[license-badge]: https://img.shields.io/github/license/DeltaChain/DeltaChain.svg
-[license-url]: https://github.com/DeltaChain/DeltaChain/blob/main/LICENSE
-[sg-badge]: https://sourcegraph.com/github.com/DeltaChain/DeltaChain/-/badge.svg
-[sg-url]: https://sourcegraph.com/github.com/DeltaChain/DeltaChain?badge
-[tests-url]: https://github.com/DeltaChain/DeltaChain/actions/workflows/tests.yml
-[tests-badge]: https://github.com/DeltaChain/DeltaChain/actions/workflows/tests.yml/badge.svg?branch=main
-[lint-badge]: https://github.com/DeltaChain/DeltaChain/actions/workflows/lint.yml/badge.svg
-[lint-url]: https://github.com/DeltaChain/DeltaChain/actions/workflows/lint.yml
