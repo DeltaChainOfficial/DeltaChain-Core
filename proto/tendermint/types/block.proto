@@ -1,0 +1,15 @@
+syntax = "proto3";
+package DeltaChain.types;
+
+option go_package = "github.com/DeltaChain/DeltaChain/proto/DeltaChain/types";
+
+import "gogoproto/gogo.proto";
+import "DeltaChain/types/types.proto";
+import "DeltaChain/types/evidence.proto";
+
+message Block {
+  Header                        header      = 1 [(gogoproto.nullable) = false];
+  Data                          data        = 2 [(gogoproto.nullable) = false];
+  DeltaChain.types.EvidenceList evidence    = 3 [(gogoproto.nullable) = false];
+  Commit                        last_commit = 4;
+}

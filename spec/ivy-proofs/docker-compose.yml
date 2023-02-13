@@ -1,0 +1,8 @@
+version: '3'
+services:
+  DeltaChain-proof:
+    build: .
+    volumes:
+      - ./:/home/user/DeltaChain-proof:ro
+      - ./output:/home/user/DeltaChain-proof/output:rw
+

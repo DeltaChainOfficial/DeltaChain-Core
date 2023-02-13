@@ -1,0 +1,10 @@
+syntax = "proto3";
+package DeltaChain.types;
+
+option go_package = "github.com/DeltaChain/DeltaChain/proto/DeltaChain/types";
+
+message EventDataRoundState {
+  int64  height = 1;
+  int32  round  = 2;
+  string step   = 3;
+}
